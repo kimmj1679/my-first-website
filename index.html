@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나의 첫 번째 웹사이트</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 48px 40px;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .avatar { font-size: 64px; margin-bottom: 16px; }
+    h1 { font-size: 28px; color: #2d3748; margin-bottom: 8px; }
+    .subtitle { font-size: 16px; color: #764ba2; font-weight: 600; margin-bottom: 20px; }
+    p { font-size: 15px; color: #718096; line-height: 1.7; margin-bottom: 28px; }
+    .badge {
+      display: inline-block;
+      background: #f0ebff;
+      color: #764ba2;
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 13px;
+      margin: 4px;
+    }
+    .footer { margin-top: 32px; font-size: 13px; color: #a0aec0; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👋</div>
+    <h1>안녕하세요!</h1>
+    <p class="subtitle">웹 개발을 배우고 있는 김민준입니다</p>
+    <p>이 페이지는 나의 첫 번째 GitHub Pages 배포 프로젝트입니다.<br>HTML, CSS, 그리고 GitHub Actions를 사용해 만들었습니다.</p>
+    <div>
+      <span class="badge">HTML</span>
+      <span class="badge">CSS</span>
+      <span class="badge">GitHub Pages</span>
+    </div>
+    <div class="footer">🚀 GitHub Actions로 자동 배포됨</div>
+  </div>
+</body>
+</html>
